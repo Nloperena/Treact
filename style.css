@@ -1,3 +1,30 @@
 * {
-    color: red;
+    color: black;
+}
+ul {
+
+}
+li {
+    list-style: none;
+}
+.nav__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:8px;
+}
+.nav__links {
+    display: flex;
+    margin: 0 10px;
+    padding: 0;
+    text-decoration: none;
+}
+.nav__link {
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0 14px;
+}
+.logo {
+    width:100%;
+    max-width:160px;
 }
