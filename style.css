@@ -22,6 +22,18 @@ h1 {
     font-weight: 700;
     font-size:48px;
 }
+
+h2 {
+font-size: 38px;
+}
+
+h5 {
+    margin: 16px;
+    letter-spacing: 1;
+    font-size:16px;
+    
+}
+
 a {
     text-decoration: none;
 }
@@ -39,14 +51,14 @@ li {
 button {
     
         position: relative; /* Position the button relatively within the parent */
-        background-color: rgb(100, 21, 255);
+        background-color: #6415FF;
         color: white;
         border-radius: 9999px; /* Ensure consistent rounding */
         padding: 8px 16px;
         cursor: pointer;
     align-items: center;
     appearance: button;
-    background-color: rgb(100, 21, 255);
+    background-color: #6415FF;
     background-image: none;
     border-bottom-color: rgb(226, 232, 240);
     border-bottom-left-radius: 9999px;
@@ -157,9 +169,13 @@ input {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .text__highlight {
-    color:purple;
+    color:#6415FF;
 }
 /*
 
@@ -226,7 +242,8 @@ LANDING
 }
 .heading__column--left {
     flex:1;
-    width: 40%;
+    width: 100%;
+    max-width: 516px;
     display:flex;
     flex-direction: column;
     justify-content: space-between;
@@ -281,3 +298,56 @@ LANDING
     margin: 0;
    
  }
+
+
+ /*
+ 
+ SERVICES
+ 
+ */
+
+ .services__container {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin:0 
+ }
+ .h2__para {
+    font-size:18px;
+    margin: 16px 200px;
+    text-align: center;
+ }
+ .verticle__spacer {
+    margin-top:40px;
+ }
+ .service__card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: grey;
+    width:33%;
+    margin: 3px;
+ }
+ .service--row {
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: space-between;
+    width:30%;
+ }
+ .service__card--img--wrapper {
+    display: flex;
+    padding: 30px;
+    border-radius: 3rem;
+    border-style: solid;
+    top:0;
+    bottom:0;
+ }
+.card__text--container {
+    display: flex;
+    flex-direction: column;
+}
+.title {
+    font-size:24px;
+}
