@@ -37,6 +37,13 @@ li {
     list-style: none;
 }
 button {
+    
+        position: relative; /* Position the button relatively within the parent */
+        background-color: rgb(100, 21, 255);
+        color: white;
+        border-radius: 9999px; /* Ensure consistent rounding */
+        padding: 8px 16px;
+        cursor: pointer;
     align-items: center;
     appearance: button;
     background-color: rgb(100, 21, 255);
@@ -258,8 +265,19 @@ LANDING
     flex-direction: column; /* Default setting for Flexbox, ensures horizontal alignment */
     justify-content: flex-start; /* Aligns elements to the left */
     align-items: center; /* Vertically centers elements */
-    gap: 8px; /* Adds spacing between elements */
+    margin-top: 80px; /* Adds spacing between elements */
 }
 .input__wrapper {
-    display: flex;
-}
+    display: flex; /* Ensures alignment */
+    justify-content: space-between; /* Proper spacing between elements */
+    align-items: center; /* Vertical alignment */
+    border: 1px solid rgb(226, 232, 240);
+    border-radius: 3rem; /* Ensure the parent has a border and proper rounding */
+    padding: 8px;
+    position: relative; /* This is critical for absolute positioning */
+  }
+  
+.trusted__customers{
+    margin: 0;
+   
+ }
