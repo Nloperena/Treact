@@ -233,7 +233,10 @@ NAVBAR STYLES
 LANDING
 
 */
-
+#landing {
+    margin: 0;
+    padding: 0 0 96px 0;
+}
 .heading__container {
     display: flex;
     flex-direction: row;
@@ -383,6 +386,31 @@ WorkSection
     max-width:512px;
 }
 .work__left--column {
+    width:40%;
+    max-width:512px;
+}
+img{
+    width: 100%;
+}
+.learnMore {
+    position: relative;
+}
+
+/*
+
+STEPS
+
+*/
+.steps--row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.steps__right--column {
+    width:60%;
+    max-width:512px;
+}
+.steps__left--column {
     width:40%;
     max-width:512px;
 }
