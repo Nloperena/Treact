@@ -366,6 +366,8 @@ LANDING
     flex-direction: column;
     margin-left:1rem;
     margin-top:0.5rem;
+    width: 100%;
+    
 }
 .title {
     font-size:24px;
@@ -407,6 +409,7 @@ img{
 STEPS
 
 */
+
 .steps--row {
     display: flex;
     flex-direction: row;
@@ -426,3 +429,32 @@ img{
 .learnMore {
     position: relative;
 }
+
+
+
+.steps__card--number--wrapper {
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 1;
+    --tw-text-opacity: 1;
+    color: rgb(203 213 224 / var(--tw-text-opacity));
+}
+.title {
+    font-size:1.25rem;
+}
+.description {
+    margin-top: 0.75rem;
+    max-width: 20rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 2;
+    --tw-text-opacity: 1;
+    color: rgb(113 128 150 / var(--tw-text-opacity));
+}
+.steps__card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 3px;
+    padding: 32px 8px;
+ }
