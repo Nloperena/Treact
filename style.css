@@ -468,6 +468,8 @@ img{
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 100%;
+    max-width: 1200px;
 }
 
  .values__left--column {
@@ -477,4 +479,7 @@ img{
  .values__right--column {
     width:60%;
     max-width:512px;
+ }
+ .values__img {
+    width:100%
  }
