@@ -467,13 +467,13 @@ img{
 .values--row{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: space-around;
     width: 100%;
     max-width: 1200px;
 }
 
  .values__left--column {
-    width:40%;
+    width:1000%;
     max-width:512px;
  }
  .values__right--column {
@@ -483,3 +483,38 @@ img{
  .values__img {
     width:100%
  }
+
+
+ /*
+ 
+ PRICING
+ 
+ */
+
+ .pricing__wrapper--header {
+
+ }
+ .pricing__wrapper--columns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    padding:  96px 0;
+ }
+ .pricing__column--wrapper {
+    background-color: #6415FF;
+    border-radius: 5rem;
+ }
+ .column__header--wrapper {
+
+ }
+.column__tier {
+
+}
+.column__price {
+
+}
+.column__schedule {
+
+}
