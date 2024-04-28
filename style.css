@@ -502,9 +502,11 @@ img{
     max-width: 1280px;
     padding:  96px 0;
  }
- .pricing__column--wrapper {
+ .pricing__columns {
     background-color: #6415FF;
     border-radius: 5rem;
+    display: flex;
+    justify-content: space-between;
  }
  .column__header--wrapper {
 
