@@ -167,7 +167,21 @@ input {
     color: rgb(36, 62, 99);
     cursor: text;
   }
-  
+  #Personal {
+    background-color: #5663D0;
+    max-width: 24rem;
+    position: relative;
+    margin-top: 4rem;
+    display: flex;
+    width: 100%;
+    max-width: 24rem;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    text-align: center;
+  }
 .row {
     width: 100%;
     max-width: 1200px;
@@ -492,9 +506,9 @@ img{
  */
 
  .pricing__wrapper--header {
-
+    color:white;
  }
- .pricing__wrapper--columns {
+ .pricing__wrapper--column {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -503,20 +517,19 @@ img{
     padding:  96px 0;
  }
  .pricing__columns {
-    background-color: #6415FF;
+     align-items: center;
     border-radius: 5rem;
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
  }
+ .column__body--wrapper ,
  .column__header--wrapper {
-
+    text-align: center;
+    align-items: center;
  }
-.column__tier {
-
-}
-.column__price {
-
-}
-.column__schedule {
-
-}
+ .column--wapper {
+    display: flex;
+    align-items: center;
+    text-align: center;
+ }
