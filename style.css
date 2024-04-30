@@ -521,8 +521,8 @@ img{
      align-items: center;
     border-radius: 5rem;
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+    justify-content: space-around;
+    flex-direction: row;
  }
  .column__body--wrapper ,
  .column__header--wrapper {
@@ -544,7 +544,7 @@ img{
 
  .column__header--wrapper {
     padding-top: 2rem;
-    padding-bottom: 2rem;
+   
     text-transform: uppercase;
     line-height: 1.625;
  }
@@ -556,7 +556,7 @@ img{
     flex-direction: column;
     border-top-width: 2px;
     border-bottom-width: 2px;
-    padding: 2rem;
+    padding: 2rem 2rem 0 2rem;
  }
  .column__footer--wrapper {
         padding: 2rem 4rem 2rem 4rem;
