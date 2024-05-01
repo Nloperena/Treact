@@ -568,3 +568,16 @@ img{
     margin-top: 1.25rem;
     font-weight: 500;
  }
+
+ /*
+ 
+ Testimonials
+ 
+ */
+
+ .testimonial__column--container {
+ display: flex;
+ align-items: center;
+ max-width: 1200px;
+ justify-content: center;
+ }
