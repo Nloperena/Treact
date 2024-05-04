@@ -580,15 +580,13 @@ img{
  .testimonial__column--container {
  display: flex;
  align-items: center;
- 
- flex-direction: row;
- justify-content: space-between;
  }
  .testimonial__column--container--wrapper {
     display: flex;
     align-items: center;
     justify-content:space-evenly;
     padding:3rem;
+    margin:0 auto;
  }
  .testimonial__column__left--wrapper {
     width: 50%;
